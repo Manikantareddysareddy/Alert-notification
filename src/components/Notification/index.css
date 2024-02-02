@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 2px #e5e5e5 solid;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 50vw;
+}
+.icon1 {
+  height: 5vh;
+  align-self: center;
+  width: 10vw;
+}
+@media (max-width: 577px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    border: 2px #e5e5e5 solid;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 90vw;
+  }
+  .icon1 {
+    height: 5vh;
+    align-self: center;
+    width: 10vw;
+  }
+}

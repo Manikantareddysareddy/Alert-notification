@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.main-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 5vh;
+  align-self: center;
+  width: 10vw;
+}
+.new-container {
+  display: flex;
+}
+.success-heading {
+  color: #2dca73;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.success-heading1 {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.success-heading2 {
+  color: #ffb800;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.success-heading3 {
+  color: #0f81e0;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.success-para {
+  color: #64748b;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
